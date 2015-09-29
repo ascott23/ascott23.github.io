@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
+
+body {
+	background-color: #52b3d9;
+	font-size: 100%;
+	margin: 0;
+	padding: 1em 10%;
+	font-family: "Lato", Georgia, Times New Roman, Times, serif;
+}
+
+#header {
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#header h1 {
+	font-size: 4.35em;
+	font-weight: 900;
+	font-family: "Roboto-Condensed", sans-serif;
+}
+
+#header p {
+	font-size: 1.25em;
+	font-weight: 400;
+	font-family: "Lato", sans-serif;
+}
+
+#footer {
+	font-size: 1.5em;
+	font-weight: 400;
+	font-family: "Lato", sans-serif;
+/*	background-color: #4DCBD7;*/
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	display: block;
+}
+
+#footer a:link, a:visited {
+	display: inline;
+	width: 120px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #000000;
+	text-decoration: none;
+}
+
+#footer a:hover, a:active {
+	
+}
+
+#doc1 {
+	width: 200px;
+	height: 225px;
+	position: fixed;
+	top: 55%;
+	left: 85%;
+    -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+	transform: rotate(2deg);
+}
+
+#doc2 {
+	width: 200px;
+	height: 225px;
+	position: fixed;
+	top: 58%;
+	left: 81%;
+    -ms-transform: rotate(-3deg); /* IE 9 */
+    -webkit-transform: rotate(-3deg); /* Chrome, Safari, Opera */
+	transform: rotate(-3deg);
+}
+
+#doc3 {
+	width: 200px;
+	height: 225px;
+	position: fixed;
+	top: 55%;
+	left: 83%;
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+	transform: rotate(-5deg);
+}
+
+#coffeeCup {
+	width: 175px;
+	height: 175px;
+	position: fixed;
+	top: 60%;
+	left: 73%;
+}
+
+#laptop {
+	width: 350px;
+	height: 390px;
+	position: fixed;
+	top: 49%;
+	left: 3%;
+    -ms-transform: rotate(-70deg); /* IE 9 */
+    -webkit-transform: rotate(-70deg); /* Chrome, Safari, Opera */
+	transform: rotate(-70deg);
+}
+
+#phone {
+	width: 70px;
+	height: 90px;
+	position: fixed;
+	top: 55%;
+	left: 26%;
+    -ms-transform: rotate(-50deg); /* IE 9 */
+    -webkit-transform: rotate(-50deg); /* Chrome, Safari, Opera */
+	transform: rotate(-50deg);
+}
+
+#phone:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    -ms-transform: translate3d(-1px, 0, 0) rotate(-50deg); /* IE 9 */
+    -webkit-transform: translate3d(-1px, 0, 0) rotate(-50deg); /* Chrome, Safari, Opera */
+	transform: translate3d(-1px, 0, 0) rotate(-50deg);
+  }
+  
+  20%, 80% {
+    -ms-transform: translate3d(2px, 0, 0) rotate(-50deg); /* IE 9 */
+    -webkit-transform: translate3d(2px, 0, 0) rotate(-50deg); /* Chrome, Safari, Opera */
+	transform: translate3d(2px, 0, 0) rotate(-50deg);
+  }
+
+  30%, 70% {
+    -ms-transform: translate3d(-4px, 1px, 0) rotate(-50deg); /* IE 9 */
+    -webkit-transform: translate3d(-4px, 1px, 0) rotate(-50deg); /* Chrome, Safari, Opera */
+	transform: translate3d(-4px, 1px, 0) rotate(-50deg);
+  }
+
+  40%, 60% {
+    -ms-transform: translate3d(4px, 0, 0) rotate(-50deg); /* IE 9 */
+    -webkit-transform: translate3d(4px, 0, 0) rotate(-50deg); /* Chrome, Safari, Opera */
+	transform: translate3d(4px, 0, 0) rotate(-50deg);
+  }
+
+	50% {
+    -ms-transform: translate3d(0, -2px, 0) rotate(-50deg); /* IE 9 */
+    -webkit-transform: translate3d(0, -2px, 0) rotate(-50deg); /* Chrome, Safari, Opera */
+	transform: translate3d(0, -2px, 0) rotate(-50deg);
+  }
+}
+
+#pencil1 {
+	width: 75px;
+	height: 125px;
+	position: fixed;
+	top: 5%;
+	left: 68%;
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+	transform: rotate(30deg);
+}
+
+#pencil2 {
+	width: 75px;
+	height: 125px;
+	position: fixed;
+	top: 5%;
+	left: 66%;
+    -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+	transform: rotate(2deg);
+}
+
+#pencil3 {
+	width: 75px;
+	height: 105px;
+	position: fixed;
+	top: 7%;
+	left: 65%;
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+	transform: rotate(-5deg);
+}
+
+#eraser {
+	width: 60px;
+	height: 75px;
+	position: fixed;
+	top: 18%;
+	left: 67%;
+    -ms-transform: rotate(-85deg); /* IE 9 */
+    -webkit-transform: rotate(-85deg); /* Chrome, Safari, Opera */
+	transform: rotate(-85deg);
+}
+
+#notebook {
+	width: 230px;
+	height: 250px;
+	position: fixed;
+	top: ;
+	left: 70%;
+    -ms-transform: rotate(3deg); /* IE 9 */
+    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+	transform: rotate(3deg);
+}
+
+#book {
+	width: 225px;
+	height: 250px;
+	position: fixed;
+	top: 8%;
+	left: 20%;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Chrome, Safari, Opera */
+	transform: rotate(-8deg);
+}
